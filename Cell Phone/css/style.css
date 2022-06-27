@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+}
+
+.one {
+  height: 25px;
+  border: solid #000;
+  color: rgb(189, 4, 4);
+
+  /*   padding-top: 20.1px;*/
+}
+
+.three {
+  color: white;
+}
+
+.two {
+  padding-bottom: 60px;
+  margin-bottom: -35px;
+  margin-right: 10px;
+  border: solid rgba(68, 226, 6, 0.623);
+  border-inline-color: rgba(5, 41, 1, 0.74);
+}
+
+.four {
+  height: 25px;
+  margin-right: 80px;
+  border: solid #000;
+}
+
+.five {
+  height: 25px;
+  border: solid #000;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 220px;
+  padding: 0 10px 10px 0;
+  box-shadow: #000 0 0 5px;
+  background-color: rgb(24, 112, 43);
+  margin: 50px 0 0 41.7%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(65, 64, 64);
+  filter: drop-shadow(4px 4px 2px hsl(0deg 0% 0%));
+}
+
+button {
+  margin: 15px 10px 0 16px;
+  border-radius: 10px;
+  height: 30px;
+  width: 40px;
+  font-size: 12px;
+  background-color: rgb(28, 35, 37);
+  color: white;
+  filter: drop-shadow(1px 5px 1px hsl(0deg 0% 0% / 5));
+  box-shadow: #000 0 0 5px, 0 0 2px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 7px;
+}
+
+button:hover {
+  background-color: rgba(75, 92, 79, 0.909);
+}
+
+img {
+  width: 200px;
+  border-radius: 5px 5px 0 0;
+  margin: 9px 0 -12px 9px;
+  box-shadow: #000 0 0 5px;
+}
